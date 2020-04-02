@@ -1,0 +1,30 @@
+{
+    "name": "dexperts/master-templates",
+    "description": "Contains management templates for the project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stef van den Berg",
+            "email": "stef@dexperts.nl"
+        },
+        {
+            "name": "Roel de Man",
+            "email": "roel@dexperts.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dexperts\\MasterTemplates\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dexperts\\MasterTemplates\\MasterTemplatesServiceProviders"
+            ]
+        }
+    }
+}
