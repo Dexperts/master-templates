@@ -9,7 +9,10 @@ return [
    |
    */
 
-	'user' => 'Users',
+	'users' => 'Users',
 	'rights' => 'Rights',
+	'products' => 'Products',
+	'locations' => 'Locations',
+    'appointments' => 'Appointments',
 	'logout' => 'Logout'
 ];

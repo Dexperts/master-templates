@@ -1,0 +1,31 @@
+.card {
+
+  border-radius: var(--default-border-radius);
+  background: var(--block-background);
+  border: 1px solid var(--login-input-border);
+
+  &--login {
+    width: 35rem;
+    margin-top: var(--spacing-xl);
+  }
+
+  &__header, &__body {
+
+  }
+
+  &__header {
+    padding: var(--spacing-l) var(--spacing-l) var(--spacing-m) var(--spacing-l);
+    background: var(--focussed-background);
+    font-family: var(--font-face);
+    font-weight: 400;
+    color: var(--header-title-color);
+    font-size: 2rem;
+    border-radius: var(--default-border-radius) var(--default-border-radius) 0 0;
+    border-bottom: 1px solid var(--login-input-border);
+    text-align: center;
+  }
+
+  &__body {
+    padding: var(--spacing-l);
+  }
+}

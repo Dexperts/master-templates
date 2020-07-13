@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Screens---Proxima-Nova" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="28---Add-Product" transform="translate(-1022.000000, -675.000000)">
+            <g id="All-Products" transform="translate(205.000000, 544.000000)">
+                <g id="Row" transform="translate(30.000000, 119.000000)" fill="#fff">
+                    <g id="Actions" transform="translate(761.000000, 12.000000)">
+                        <path d="M35,12 L37,12 L37,7 L35,7 L35,12 Z M31,12 L33,12 L33,7 L31,7 L31,12 Z M29,14 L39,14 L39,5 L29,5 L29,14 Z M33,3 L35,3 L35,2 L33,2 L33,3 Z M41,5 L41,15 C41,15.552 40.552,16 40,16 L28,16 C27.448,16 27,15.552 27,15 L27,5 L26,5 L26,4 C26,3.448 26.448,3 27,3 L28,3 L29,3 L31,3 L31,1 C31,0.448 31.448,0 32,0 L36,0 C36.552,0 37,0.448 37,1 L37,3 L39,3 L40,3 L41,3 C41.552,3 42,3.448 42,4 L42,5 L41,5 Z" id="deleteIcon"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

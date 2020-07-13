@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="4px" viewBox="0 0 7 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#F2F4F7" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Styleguides---Proxima-Nova" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="S1---Styleguide" transform="translate(-761.000000, -2412.000000)">
+            <g id="05---Forms" transform="translate(260.000000, 2214.000000)">
+                <g id="Content" transform="translate(0.000000, 66.000000)">
+                    <g id="Select-1" transform="translate(278.000000, 90.000000)">
+                        <g id="Select" transform="translate(1.000000, 26.000000)">
+                            <path d="M223.497699,19 L223.475,18.998 L223.410124,18.9922442 C223.176875,18.9514173 223,18.7537279 223,18.5023012 L223,14.4976988 C223,14.2533686 223.183256,14.0501597 223.412251,14.0080186 L223.5,14 C223.776142,14 224,14.2148438 224,14.4976988 L224,18 L227.502301,18 C227.746631,18 227.94984,18.1832562 227.991981,18.4122514 L228,18.5 C228,18.7761424 227.785156,19 227.502301,19 L223.497699,19 Z" id="Arrow" fill="#A8AAB7" transform="translate(225.500000, 16.500000) rotate(-45.000000) translate(-225.500000, -16.500000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

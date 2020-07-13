@@ -11,6 +11,6 @@ return [
 	|
 	*/
 
-	'name' => env('APP_ADMIN_NAME', 'DeMS')
+	'name' => env('APP_ADMIN_NAME', 'DeMS'),
 
 ];

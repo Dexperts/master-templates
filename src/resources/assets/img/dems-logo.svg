@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="152px" height="63px" viewBox="0 0 152 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>dems-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M4.344,15.76 L14.927,26.342 C14.927,26.342 20.149,23.153 15.206,18.209 L15.206,18.209 C10.262,13.265 7.711,9.978 6.298,8.303 L6.298,8.303 C5.393,7.231 1.807,3.062 3.092,0.59 L3.092,0.59 C-0.179,5.187 0.23,11.645 4.344,15.76" id="path-1"></path>
+        <linearGradient x1="100.002274%" y1="50.0002505%" x2="0.00277653758%" y2="50.0002505%" id="linearGradient-3">
+            <stop stop-color="#AF3D75" offset="0%"></stop>
+            <stop stop-color="#803870" offset="100%"></stop>
+        </linearGradient>
+        <path d="M3.959,11.44 C-0.156,15.554 -0.564,22.012 2.708,26.609 L2.708,26.609 C1.422,24.137 5.007,19.969 5.912,18.896 L5.912,18.896 C7.325,17.221 9.835,14.148 14.779,9.205 L14.779,9.205 C19.723,4.26 14.542,0.857 14.542,0.857 L14.542,0.857 L3.959,11.44 Z" id="path-4"></path>
+        <linearGradient x1="100.000689%" y1="49.998703%" x2="0.000721672%" y2="49.998703%" id="linearGradient-6">
+            <stop stop-color="#FF467E" offset="0%"></stop>
+            <stop stop-color="#A83D75" offset="100%"></stop>
+        </linearGradient>
+        <path d="M22.717,1.496 C20.146,4.066 0.88,23.357 0.88,23.357 L0.88,23.357 C0.88,23.357 6.197,26.464 9.542,23.119 L9.542,23.119 L29.666,2.972 C29.666,2.972 27.143,0.642 24.804,0.641 L24.804,0.641 C24.061,0.641 23.337,0.876 22.717,1.496" id="path-7"></path>
+        <linearGradient x1="-0.00183839366%" y1="50.0001103%" x2="99.9987157%" y2="50.0001103%" id="linearGradient-9">
+            <stop stop-color="#1895AE" offset="0%"></stop>
+            <stop stop-color="#A1BC95" offset="100%"></stop>
+        </linearGradient>
+        <path d="M2.442,8.74 C7.387,13.684 9.937,16.972 11.35,18.647 L11.35,18.647 C12.256,19.72 15.841,23.888 14.555,26.36 L14.555,26.36 C17.827,21.764 17.418,15.305 13.303,11.191 L13.303,11.191 L2.72,0.608 C2.72,0.608 -2.501,3.797 2.442,8.74" id="path-10"></path>
+        <linearGradient x1="0.00150040891%" y1="49.99956%" x2="100.001096%" y2="49.99956%" id="linearGradient-12">
+            <stop stop-color="#AF3D75" offset="0%"></stop>
+            <stop stop-color="#803870" offset="100%"></stop>
+        </linearGradient>
+        <path d="M11.737,8.054 C10.324,9.729 7.813,12.802 2.869,17.747 L2.869,17.747 C-2.075,22.69 3.106,26.093 3.106,26.093 L3.106,26.093 L13.69,15.51 C17.803,11.396 18.213,4.937 14.941,0.341 L14.941,0.341 C16.227,2.813 12.642,6.982 11.737,8.054" id="path-13"></path>
+        <linearGradient x1="0.00160785038%" y1="50.0011075%" x2="99.9994839%" y2="50.0011075%" id="linearGradient-15">
+            <stop stop-color="#FF467E" offset="0%"></stop>
+            <stop stop-color="#A83D75" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-20.000000, 0.000000)">
+            <g id="Group-76" transform="translate(-120.000000, -343.000000)">
+                <g id="Group-5" transform="translate(116.000000, 0.950000)" stroke="#19D1AE" stroke-dasharray="12" stroke-width="2">
+                    <path d="M1868,1269 C1868,1269 1936.398,991.717 1708.461,972.915 C1480.523,954.114 1393,1065.623 1393,1148 C1393,1316 1713.28,1325.513 1680,1117 C1631,810 1239.368,896.127 964,801 C689,706 559.925,565.972 459,365 C284.037,16.597 155.59,0.039 155.59,0.039" id="Stroke-3"></path>
+                </g>
+                <text id="dems" font-family="BasicCommercialLTPro-Bold, Basic Commercial LT Pro" font-size="35" font-weight="bold" letter-spacing="-0.245">
+                    <tspan x="194" y="385" fill="#000000">de</tspan>
+                    <tspan x="233.06" y="385" fill="#C54078">ms</tspan>
+                </text>
+                <g id="Group-31" transform="translate(153.000000, 358.950000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-30"></g>
+                    <path d="M4.344,15.76 L14.927,26.342 C14.927,26.342 20.149,23.153 15.206,18.209 L15.206,18.209 C10.262,13.265 7.711,9.978 6.298,8.303 L6.298,8.303 C5.393,7.231 1.807,3.062 3.092,0.59 L3.092,0.59 C-0.179,5.187 0.23,11.645 4.344,15.76" id="Fill-29" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+                </g>
+                <g id="Group-34" transform="translate(153.000000, 345.950000)">
+                    <mask id="mask-5" fill="white">
+                        <use xlink:href="#path-4"></use>
+                    </mask>
+                    <g id="Clip-33"></g>
+                    <path d="M3.959,11.44 C-0.156,15.554 -0.564,22.012 2.708,26.609 L2.708,26.609 C1.422,24.137 5.007,19.969 5.912,18.896 L5.912,18.896 C7.325,17.221 9.835,14.148 14.779,9.205 L14.779,9.205 C19.723,4.26 14.542,0.857 14.542,0.857 L14.542,0.857 L3.959,11.44 Z" id="Fill-32" fill="url(#linearGradient-6)" mask="url(#mask-5)"></path>
+                </g>
+                <g id="Group-37" transform="translate(153.000000, 359.950000)">
+                    <mask id="mask-8" fill="white">
+                        <use xlink:href="#path-7"></use>
+                    </mask>
+                    <g id="Clip-36"></g>
+                    <path d="M22.717,1.496 C20.146,4.066 0.88,23.357 0.88,23.357 L0.88,23.357 C0.88,23.357 6.197,26.464 9.542,23.119 L9.542,23.119 L29.666,2.972 C29.666,2.972 27.143,0.642 24.804,0.641 L24.804,0.641 C24.061,0.641 23.337,0.876 22.717,1.496" id="Fill-35" fill="url(#linearGradient-9)" mask="url(#mask-8)"></path>
+                </g>
+                <g id="Group-40" transform="translate(165.000000, 359.950000)">
+                    <mask id="mask-11" fill="white">
+                        <use xlink:href="#path-10"></use>
+                    </mask>
+                    <g id="Clip-39"></g>
+                    <path d="M2.442,8.74 C7.387,13.684 9.937,16.972 11.35,18.647 L11.35,18.647 C12.256,19.72 15.841,23.888 14.555,26.36 L14.555,26.36 C17.827,21.764 17.418,15.305 13.303,11.191 L13.303,11.191 L2.72,0.608 C2.72,0.608 -2.501,3.797 2.442,8.74" id="Fill-38" fill="url(#linearGradient-12)" mask="url(#mask-11)"></path>
+                </g>
+                <g id="Group-43" transform="translate(165.000000, 372.950000)">
+                    <mask id="mask-14" fill="white">
+                        <use xlink:href="#path-13"></use>
+                    </mask>
+                    <g id="Clip-42"></g>
+                    <path d="M11.737,8.054 C10.324,9.729 7.813,12.802 2.869,17.747 L2.869,17.747 C-2.075,22.69 3.106,26.093 3.106,26.093 L3.106,26.093 L13.69,15.51 C17.803,11.396 18.213,4.937 14.941,0.341 L14.941,0.341 C16.227,2.813 12.642,6.982 11.737,8.054" id="Fill-41" fill="url(#linearGradient-15)" mask="url(#mask-14)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
