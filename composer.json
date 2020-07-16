@@ -14,8 +14,10 @@
             "email": "roel@dexperts.nl"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {},
+    "minimum-stability": "beta",
+    "require": {
+        "intervention/image": "^2"
+    },
     "autoload": {
         "psr-4": {
             "Dexperts\\MasterTemplates\\": "src/"
