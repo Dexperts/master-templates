@@ -1,0 +1,11 @@
+.h {
+   &--hidden {
+       display: none;
+   }
+    &--info {
+        font-style: italic;
+        font-size: .9rem;
+        color: #999;
+        margin: var(--spacing-s) var(--spacing-m);
+    }
+}

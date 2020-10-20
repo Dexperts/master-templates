@@ -3,7 +3,6 @@
     "description": "Contains management templates for the project",
     "type": "project",
     "license": "MIT",
-    "version": "1.0.0",
     "authors": [
         {
             "name": "Stef van den Berg",
@@ -14,10 +13,8 @@
             "email": "roel@dexperts.nl"
         }
     ],
-    "minimum-stability": "beta",
-    "require": {
-        "intervention/image": "^2"
-    },
+    "minimum-stability": "dev",
+    "require": {},
     "autoload": {
         "psr-4": {
             "Dexperts\\MasterTemplates\\": "src/"

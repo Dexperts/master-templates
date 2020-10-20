@@ -1,0 +1,51 @@
+.inline__form {
+
+    &--option, &--suboption {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+
+        .form__input {
+            padding: var(--spacing-s);
+            font-size: 0.90rem;
+            line-height: 1.5;
+        }
+        .form__select {
+            padding: var(--spacing-s);
+            font-size: 0.90rem;
+            line-height: 1.5;
+            border: 1px solid var(--header-divider-color);
+        }
+        .form__hidden {
+            display: none;
+        }
+    }
+
+    &--option {
+        border-top: 1px solid var(--header-divider-color);
+        margin: var(--spacing-m) 0 auto 0;
+
+        &:first-child {
+            border-top: 0;
+        }
+
+        .form__label {
+            font-size: 0.8rem;
+        }
+    }
+
+    &--suboption {
+        width: 90%;
+        margin-left: auto;
+    }
+
+    &--button {
+        margin-bottom: var(--spacing-s);
+    }
+
+    &--footer {
+        margin-top: var(--spacing-m);
+        padding-top: var(--spacing-m);
+        border-top: 1px solid var(--header-divider-color);
+    }
+}

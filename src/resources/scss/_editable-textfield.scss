@@ -1,0 +1,19 @@
+.editable_textfield {
+    &--actions {
+        margin-left: var(--spacing-s);
+    }
+
+    &__button {
+        background: #FFF;
+        border-radius: 2px;
+        padding: 0.75rem var(--spacing-m) var(--spacing-s) var(--spacing-m);
+        border: 1px solid var(--header-divider-color);
+        transition: .2s background, .1s borderColor;
+        cursor: pointer;
+
+        &:hover {
+            border-color: #8D98A9;
+            background: #F9F7F9;
+        }
+    }
+}

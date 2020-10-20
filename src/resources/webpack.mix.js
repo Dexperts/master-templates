@@ -1,4 +1,4 @@
-const mix = require('laravel-mix');
+const mix = require('laravel-mix')
 
 /*
  |--------------------------------------------------------------------------
@@ -11,4 +11,10 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.sass('./scss/master-templates.scss', './assets/css/master-templates.css');
+mix.sass(
+    './scss/master-templates.scss',
+    './assets/css/master-templates.css'
+).copy(
+    './assets/css/master-templates.css',
+    './../../../../public/vendor/master-templates/css/master-templates.css'
+)

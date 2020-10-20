@@ -17,5 +17,6 @@ return [
 	'edit' => 'Wijzigen',
 	'delete' => 'Verwijderen',
 	'cancel' => 'Annuleren',
-	'save' => 'Opslaan'
+	'save' => 'Opslaan',
+    'add' => 'Toevoegen'
 ];
