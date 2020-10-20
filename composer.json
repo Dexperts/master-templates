@@ -2,6 +2,7 @@
     "name": "dexperts/master-templates",
     "description": "Contains management templates for the project",
     "type": "project",
+    "version": "2.0",
     "license": "MIT",
     "authors": [
         {

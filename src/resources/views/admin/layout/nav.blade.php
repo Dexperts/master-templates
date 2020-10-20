@@ -10,7 +10,7 @@
                 ])@endcomponent
             @endif
         @endif
-        @if (env('DEXPERTS_USE_MODULES_PRODUCTS'))
+        @if (env('DEXPERTS_USE_MODULES_PRODUCTS', false))
             @if (\Dexperts\Authentication\Rights::isAllowed(\Dexperts\Authentication\Rights::products, \Dexperts\Authentication\Rights::read))
                 @component('master-templates::components.navigation-item', [
                     'url' => action('\Dexperts\Products\Controllers\ProductController@index'),
@@ -19,14 +19,16 @@
                 ])@endcomponent
             @endif
         @endif
-        @if (\Dexperts\Authentication\Rights::isAllowed(\Dexperts\Authentication\Rights::orders, \Dexperts\Authentication\Rights::read))
-            @component('master-templates::components.navigation-item', [
-                'url' => action('\Dexperts\Shop\Controllers\OrderController@index'),
-                'label' => __('master-templates::navigation.orders'),
-                'className' => 'navigation__item'
-            ])@endcomponent
+        @if (env('DEXPERTS_USE_MODULES_ORDERS', false))
+            @if (\Dexperts\Authentication\Rights::isAllowed(\Dexperts\Authentication\Rights::orders, \Dexperts\Authentication\Rights::read))
+                @component('master-templates::components.navigation-item', [
+                    'url' => action('\Dexperts\Shop\Controllers\OrderController@index'),
+                    'label' => __('master-templates::navigation.orders'),
+                    'className' => 'navigation__item'
+                ])@endcomponent
+            @endif
         @endif
-        @if (env('DEXPERTS_USE_MODULES_APPOINTMENT_SCHEDULER'))
+        @if (env('DEXPERTS_USE_MODULES_APPOINTMENT_SCHEDULER', false))
             @if (\Dexperts\Authentication\Rights::isAllowed(\Dexperts\Authentication\Rights::appointments, \Dexperts\Authentication\Rights::read))
                 @component('master-templates::components.navigation-item', [
                     'url' => url('/admin/appointments'),
@@ -35,70 +37,78 @@
                 ])@endcomponent
             @endif
         @endif
-        @if (\Dexperts\Authentication\Rights::isAllowed(\Dexperts\Authentication\Rights::customers, \Dexperts\Authentication\Rights::read))
-            @component('master-templates::components.navigation-item', [
-                'url' => url('/admin/shop/customers'),
-                'label' => __('master-templates::navigation.customers'),
-                'className' => 'navigation__item'
-            ])@endcomponent
+        @if (env('DEXPERTS_USE_MODULES_CUSTOMER', false))
+            @if (\Dexperts\Authentication\Rights::isAllowed(\Dexperts\Authentication\Rights::customers, \Dexperts\Authentication\Rights::read))
+                @component('master-templates::components.navigation-item', [
+                    'url' => url('/admin/shop/customers'),
+                    'label' => __('master-templates::navigation.customers'),
+                    'className' => 'navigation__item'
+                ])@endcomponent
+            @endif
         @endif
-        <li>
-            @component('master-templates::components.navigation-group', [
-                'label' => __('master-templates::navigation.others'),
-                'className' => 'navigation__item navigation__item__group'
-            ])
-                <ul class="navigation__group">
-                    @if (env('DEXPERTS_USE_MODULES_APPOINTMENT_SCHEDULER'))
-                        @if (\Dexperts\Authentication\Rights::isAllowed(\Dexperts\Authentication\Rights::locations, \Dexperts\Authentication\Rights::read))
-                            @component('master-templates::components.navigation-item', [
-                                'url' => url('/admin/locations'),
-                                'label' => __('master-templates::navigation.locations'),
-                                'className' => 'navigation__group__item'
-                            ])@endcomponent
+        @if (env('DEXPERTS_USE_MODULES_OTHERS', false))
+            <li>
+                @component('master-templates::components.navigation-group', [
+                    'label' => __('master-templates::navigation.others'),
+                    'className' => 'navigation__item navigation__item__group'
+                ])
+                    <ul class="navigation__group">
+                        @if (env('DEXPERTS_USE_MODULES_APPOINTMENT_SCHEDULER'))
+                            @if (\Dexperts\Authentication\Rights::isAllowed(\Dexperts\Authentication\Rights::locations, \Dexperts\Authentication\Rights::read))
+                                @component('master-templates::components.navigation-item', [
+                                    'url' => url('/admin/locations'),
+                                    'label' => __('master-templates::navigation.locations'),
+                                    'className' => 'navigation__group__item'
+                                ])@endcomponent
+                            @endif
                         @endif
-                    @endif
-                    @if (\Dexperts\Authentication\Rights::isAllowed(\Dexperts\Authentication\Rights::calculator, \Dexperts\Authentication\Rights::read))
-                        @component('master-templates::components.navigation-item', [
-                            'url' => url('/admin/shop/calculator'),
-                            'label' => __('master-templates::navigation.calculator'),
-                            'className' => 'navigation__group__item'
-                        ])@endcomponent
-                    @endif
-                    @if (\Dexperts\Authentication\Rights::isAllowed(\Dexperts\Authentication\Rights::legislations, \Dexperts\Authentication\Rights::read))
-                        @component('master-templates::components.navigation-item', [
-                            'url' => url('/admin/legislation'),
-                            'label' => __('master-templates::navigation.legislation'),
-                            'className' => 'navigation__group__item'
-                        ])@endcomponent
-                    @endif
-                    @if (env('DEXPERTS_USE_MODULES_CAMPAIGNS'))
-                        @if (\Dexperts\Authentication\Rights::isAllowed(\Dexperts\Authentication\Rights::trends, \Dexperts\Authentication\Rights::read))
-                            @component('master-templates::components.navigation-item', [
-                                'url' => url('/admin/trends'),
-                                'label' => __('master-templates::navigation.trends'),
-                                'className' => 'navigation__group__item'
-                            ])@endcomponent
+                        @if (env('DEXPERTS_USE_MODULES_CALCULATOR'))
+                            @if (\Dexperts\Authentication\Rights::isAllowed(\Dexperts\Authentication\Rights::calculator, \Dexperts\Authentication\Rights::read))
+                                @component('master-templates::components.navigation-item', [
+                                    'url' => url('/admin/shop/calculator'),
+                                    'label' => __('master-templates::navigation.calculator'),
+                                    'className' => 'navigation__group__item'
+                                ])@endcomponent
+                            @endif
                         @endif
-                    @endif
-                    @if (env('DEXPERTS_USE_MODULES_BLOGS'))
-                        @if (\Dexperts\Authentication\Rights::isAllowed(\Dexperts\Authentication\Rights::blogs, \Dexperts\Authentication\Rights::read))
-                            @component('master-templates::components.navigation-item', [
-                                'url' => url('/admin/blogs'),
-                                'label' => __('master-templates::navigation.blogs'),
-                                'className' => 'navigation__group__item'
-                            ])@endcomponent
+                        @if (env('DEXPERTS_USE_MODULES_LEGISLATION'))
+                            @if (\Dexperts\Authentication\Rights::isAllowed(\Dexperts\Authentication\Rights::legislations, \Dexperts\Authentication\Rights::read))
+                                @component('master-templates::components.navigation-item', [
+                                    'url' => url('/admin/legislation'),
+                                    'label' => __('master-templates::navigation.legislation'),
+                                    'className' => 'navigation__group__item'
+                                ])@endcomponent
+                            @endif
                         @endif
-                        @if (\Dexperts\Authentication\Rights::isAllowed(\Dexperts\Authentication\Rights::pages, \Dexperts\Authentication\Rights::read))
-                            @component('master-templates::components.navigation-item', [
-                                'url' => url('/admin/pages'),
-                                'label' => __('master-templates::navigation.pages'),
-                                'className' => 'navigation__group__item'
-                            ])@endcomponent
+                        @if (env('DEXPERTS_USE_MODULES_CAMPAIGNS'))
+                            @if (\Dexperts\Authentication\Rights::isAllowed(\Dexperts\Authentication\Rights::trends, \Dexperts\Authentication\Rights::read))
+                                @component('master-templates::components.navigation-item', [
+                                    'url' => url('/admin/trends'),
+                                    'label' => __('master-templates::navigation.trends'),
+                                    'className' => 'navigation__group__item'
+                                ])@endcomponent
+                            @endif
                         @endif
-                    @endif
-                </ul>
-            @endcomponent
-        </li>
+                        @if (env('DEXPERTS_USE_MODULES_BLOGS'))
+                            @if (\Dexperts\Authentication\Rights::isAllowed(\Dexperts\Authentication\Rights::blogs, \Dexperts\Authentication\Rights::read))
+                                @component('master-templates::components.navigation-item', [
+                                    'url' => url('/admin/blogs'),
+                                    'label' => __('master-templates::navigation.blogs'),
+                                    'className' => 'navigation__group__item'
+                                ])@endcomponent
+                            @endif
+                            @if (\Dexperts\Authentication\Rights::isAllowed(\Dexperts\Authentication\Rights::pages, \Dexperts\Authentication\Rights::read))
+                                @component('master-templates::components.navigation-item', [
+                                    'url' => url('/admin/pages'),
+                                    'label' => __('master-templates::navigation.pages'),
+                                    'className' => 'navigation__group__item'
+                                ])@endcomponent
+                            @endif
+                        @endif
+                    </ul>
+                @endcomponent
+            </li>
+        @endif
     </ul>
 </nav>
 @if (Auth::check())
